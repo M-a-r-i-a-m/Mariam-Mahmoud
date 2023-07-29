@@ -6,8 +6,6 @@ file description
 file type
 */
 
-
-
 int main(void)
 {
     int n=3;
