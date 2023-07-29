@@ -15,7 +15,8 @@ set, reset, toggle and get using assignment operator
 #include <stdio.h>
 int main (void)
 {
-   /* declaring the numbers by which we'll shift */
+
+  /* declaring the numbers by which we'll shift */
    int shift_1 = 3;
    int shift_2 = 2;
    
@@ -54,6 +55,5 @@ int main (void)
    {
 
    }
-  
     return 0;
 }
