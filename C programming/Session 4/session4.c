@@ -49,13 +49,14 @@ printf("Enter the number");
 scanf("%d", &x);
 int i;
 int u;
-for(u=1 ; i<=x ; ++i)
+for(i=1 ; i<=x ; ++i)
 {
-    for(i=1 ; u<=i ; ++u)
+    for(u=1 ; u<=i ; ++u)
     {
         printf("*\n");
     }
 }*/
+
 /*while(condition);
 {
     code;
