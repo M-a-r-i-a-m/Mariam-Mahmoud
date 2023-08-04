@@ -28,10 +28,9 @@ int main(void)
         for(sp=1 ; sp<=row-i ; ++sp)
         {
             printf(" ");
-            while( st != 2*i-1)
+            for(st=1 ; st<= 2*i-1 ; ++st)
             {
                 printf("*");
-                ++st;
             }
             
         }
