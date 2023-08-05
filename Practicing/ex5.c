@@ -16,7 +16,7 @@ int main(void)
     }
     printf("factorial equals %d\n", fact);
     return 0;
-
+}
 
 
 
