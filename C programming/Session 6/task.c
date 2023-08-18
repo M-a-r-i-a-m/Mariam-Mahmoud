@@ -4,7 +4,7 @@ function-like macro practice
 ***********************************************/
 
 #include<stdio.h>
-#define SET_BIT(bin) (bin |= (1<<shift_1))
+#define SET_BIT(Numbrt,bit)    (Number|= (1<<bit))
 #define CLR_BIT(bin) (bin &= (~(1 << shift_2)))
 #define TOGGLE_BIT(bin) (bin ^= (1 << shift_1))
 #define GET_BIT(bin) (bin >>= 2)
